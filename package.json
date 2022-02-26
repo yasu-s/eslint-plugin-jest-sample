@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "test:w": "jest --watch",
-    "lint": "eslint ./test --ext .js"
+    "lint": "eslint ./test --ext .js",
+    "lint:fix": "eslint ./test --ext .js --fix"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
