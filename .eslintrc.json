@@ -7,10 +7,11 @@
     "jest"
   ],
   "extends": [
-    "plugin:jest/all"
+    "plugin:jest/recommended",
+    "plugin:jest/style"
   ],
   "rules": {
     "jest/consistent-test-it": ["error", {"fn": "it"}],
-    "jest/prefer-expect-assertions": ["off"]
+    "jest/require-top-level-describe": ["error"]
   }
 }
