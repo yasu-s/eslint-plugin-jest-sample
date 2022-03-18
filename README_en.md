@@ -1,31 +1,31 @@
 # eslint-plugin-jest-sample
 
-## 概要
+## Overview
 
-- [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)を使用したサンプルプロジェクトです。
-- jest用のeslintルールを実行します。
+- This is a sample project using [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest).
+- Run the eslint rule for jest. 
 
-## 動作環境
+## System Requirements
 
 - Node.js - 14.x
 - Yarn - 1.22.x
 
-## ライブラリ
+## Library
 
 - Jest - 27.5.x
 - eslint-plugin-jest - 26.1.x
 
-## 動作確認
+## Usage
 
 ```bash
-# パッケージインストール
+# package install
 yarn
 
-# eslint実行
+# eslint run
 yarn lint
 ```
 
-## 実行結果
+## Execution result
 
 ```bash
 $ eslint ./test --ext .js
